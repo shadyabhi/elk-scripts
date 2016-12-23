@@ -1,3 +1,9 @@
+'''
+This script can be used to quickly print a command for pushing a new template to ES cluster
+
+Usage:-
+    python create_template.py --index logstash-2016.12.23 --name=logs --pattern logstash-\* > push_template.sh
+'''
 import requests
 import sys
 import argparse
