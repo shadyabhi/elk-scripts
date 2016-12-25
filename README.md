@@ -12,5 +12,6 @@ $ python create_template.py --index logstash-2016.12.23 --name=cedexis_logs --pa
 * Make your changes in `script.sh`. 
 * Push the new template (make sure that the ES endpoint is correct)
 ```
-sh script.sh
+$ sh script.sh
+{"acknowledged":true}%
 ```
