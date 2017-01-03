@@ -59,7 +59,7 @@ def main():
             "number_of_shards": 1,
             "number_of_replicas": 0
         },
-        "mapping": mapping
+        "mappings": mapping
     }
 
     print "curl localhost:9200/_template/{0} -d '\n{1}'".format(args.name, json.dumps(index_template, indent=2))
